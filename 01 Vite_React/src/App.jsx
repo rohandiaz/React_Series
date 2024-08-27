@@ -1,10 +1,17 @@
 
 
+import Chai from "./react"
+
 function App() {
+  const userName="Rohandiaz"
   
 
   return (
-    <h1>Rohan and React</h1>
+    <>
+      <Chai/>
+      <h3>Rohan and his antics</h3>
+      
+    </>
   )
 }
 
